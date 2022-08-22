@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  
+  #heading {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  #heading h1 {
+    font-size: 3rem;
+  
+  }
+  
+  #heading p {
+    font-size: 1.5rem;
+    margin: 5px;
+    font-style: italic;
+  }
+  
+  
+  #img-div {
+    margin: 5px;
+    padding: 30px;
+    background-color: white;
+  }
+  
+  img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    font-size: 1.7rem;
+    margin: 15px;
+  }
+  
+  #tribute-info {
+    margin: 30px;
+  
+  }
+  
+  #tribute-info h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #tribute-info li {
+    font-size: 2rem;
+    line-height: 150%;
+    text-align: justify;
+    padding-bottom: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: darkblue;
+    color: white;
+    padding: 8px 20px;
+  }
+  
+  a:hover {
+    background-color: yellow;
+    color: darkblue;
+  }
+  
+  @media (min-width: 1024px) {
+    #img-div {
+      display: flex;
+      flex-direction: column;
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+  
+    #img-caption {
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+  
+    #tribute-info {
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+  
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 2.5rem;
+      padding: 10px 30px;
+    }
+  
+  }
